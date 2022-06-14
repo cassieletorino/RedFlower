@@ -1,0 +1,104 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+/*Menu*/
+
+header{
+    padding: 10px 0;
+    height: 110px;
+    background-color: #a0d0a5;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    margin-top: -18px;
+    margin-left: -280px;
+    height: 118px;
+}
+
+.menu-desk{
+    float: right;
+}
+
+.menu-desk ul {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 400px;
+}
+
+.menu-desk a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-desk li {
+    padding: 0 30px;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.menu-desk li.selected {
+    font-weight: bold;
+
+}
+
+.line-text
+{
+    position: relative;
+    display: inline-block;
+}
+
+.line-text div
+{
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 3px;
+    background: white;
+}
+
+.menu-desk a:hover {
+    text-decoration: underline;
+    color: #394b3b;
+    font-weight: bold;
+}
+
+.menu-desk li.selected a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.buscar {
+    background-color: white;
+
+}
+
+.txt-busca {
+    font-weight: normal;
+    border: none;
+}
+
+.btn-busca {
+    border: none;
+    float: left;
+    background-color: #394b3b;
+}
+
+.lupa {
+    background-color: white;
+}
